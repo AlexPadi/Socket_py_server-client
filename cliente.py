@@ -1,5 +1,5 @@
 import socket
-
+#socket.AF_INET es para usar IPv4
 cliente_socket=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 
 server_address=('localhost',8000)
